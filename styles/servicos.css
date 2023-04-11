@@ -95,9 +95,12 @@ footer {
     header {
         width: auto;
     }
-	
+    nav {
+        justify-content: right;
+    }
     .servicos {
-        flex-direction: row;
+        flex-direction: column;
+		justify-content: center;
         padding: 5%;
     }
 

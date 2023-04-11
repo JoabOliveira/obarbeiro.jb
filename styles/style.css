@@ -103,16 +103,17 @@ footer {
     header {
         width: auto;
     }
-    /*.caixa{
-        justify-content: center;
-    }*/
+    nav{
+        justify-content: right;
+    }
     .principal {
         flex-direction: column-reverse;
         padding: 5%;
     }
 
 	.beneficios {
-        flex-direction: column;
+        flex-direction: column-reverse;
+		justify-content: center;
         padding: 5%;
 	}
 

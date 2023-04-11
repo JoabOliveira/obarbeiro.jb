@@ -99,11 +99,12 @@ footer {
     header {
         width: auto;
     }
-    /*.caixa{
-        justify-content: center;
-    }*/
+    nav {
+        justify-content: right;
+    }
     .contato {
-        flex-direction: row;
+        flex-direction: column;
+		justify-content: center;
         padding: 5%;
     }
 
