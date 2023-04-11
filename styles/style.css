@@ -103,9 +103,10 @@ footer {
     header {
         width: auto;
     }
-    nav{
+    .caixa{
         justify-content: right;
     }
+	
     .principal {
         flex-direction: column-reverse;
         padding: 5%;

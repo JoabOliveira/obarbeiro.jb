@@ -95,11 +95,11 @@ footer {
     header {
         width: auto;
     }
-    nav {
+    .caixa {
         justify-content: right;
     }
     .servicos {
-        flex-direction: column;
+        flex-direction: column-reverse;
 		justify-content: center;
         padding: 5%;
     }
