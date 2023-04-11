@@ -97,13 +97,13 @@ footer {
 
 @media (max-width: 1200px) {
     header {
-        padding: 10%;
+        width: auto;
     }
-    .caixa{
+    /*.caixa{
         justify-content: center;
-    }
+    }*/
     .contato {
-        flex-direction: column-reverse;
+        flex-direction: row;
         padding: 5%;
     }
 

@@ -101,18 +101,18 @@ footer {
 
 @media (max-width: 1200px) {
     header {
-        padding: 10%;
+        width: auto;
     }
-    .caixa{
+    /*.caixa{
         justify-content: center;
-    }
+    }*/
     .principal {
         flex-direction: column-reverse;
         padding: 5%;
     }
 
 	.beneficios {
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 5%;
 	}
 
