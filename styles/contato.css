@@ -37,57 +37,54 @@ body {
 	text-decoration: underline;
 }
 
-.primaria {
-	padding: 2% 5%;
-	text-align: justify;
-	font-size: 1.25rem;
-	line-height: 140%;
+.contato {
+	width: 75%;
+	margin: 0% auto;
+	padding: 5% 0%;
 }
 
-.primaria_titulo {
+.contato_conteudo {
+	display: inline-block;
 	text-align: center;
-}
-
-.estrategia_negocio {
-	font-size: 1.25rem;
-	text-align: center;
-	font-style: sub;
-}
-
-em strong {
-	color:#C78C19;
-}
-
-.secundaria {
-	padding: 0% 10% 2%;
-	font-size: 1.25rem;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: 60px;
-}
-
-.secundaria_conteudo {
-	width: 35%;
-	display: flex;
-	flex-direction: column;
-	text-align: justify;
-}
-
-.secundaria_titulo {
-	text-align: left;
-
-}
-
-.secundaria_lista_itens {
-	font-weight: bold;
-	color:#C78C19;
-}
-
-.secundaria_imagem {
-	width: 45%;
-	border: 3px solid #C78C19;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 5% 1.5%;
+	box-sizing: border-box;
+	border: 2px solid #065E52;
 	border-radius: 15px;
+}
+
+.contato_navegacao {
+	text-decoration: none;
+    color: #065E52;
+}
+.contato_conteudo:hover {
+	border-color: #FFFFFF;
+
+}
+
+.contato_conteudo:active {
+	border-color: #065E52;
+}
+
+.contato_conteudo:hover h2 {
+	font-size: 2rem;
+}
+
+.contato_conteudo_titulo {
+	font-size: 1.75rem;
+	font-weight: bold;
+}
+
+.contato_descricao {
+	font-size: 1.25rem;
+}
+
+.contato_link {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 10px;
 }
 
 .rodape {
@@ -117,17 +114,11 @@ em strong {
 		margin: 1% 0% 0% 1%;
 	}
 
-    .secundaria {
-        flex-direction: column-reverse;
-		gap: 30px;
-    }
-
-	.secundaria_conteudo {
-		width: 80%;
-		text-align: center;
+	.contato_conteudo {
+		display: flex;
+		flex-direction: column;
+		width: auto;
+		margin: 3% 0%;
 	}
-
-	.secundaria_titulo {
-		text-align: center;
-	}
+    
 }
