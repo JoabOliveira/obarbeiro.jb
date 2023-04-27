@@ -114,7 +114,7 @@ em strong {
     .cabecalho__menu__link {
 		display: flex;
 		flex-direction: column;
-		margin: 1% 0% 0% 1%;
+		margin: 2% 0% 0% 2%;
 	}
 
     .secundaria {
